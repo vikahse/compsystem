@@ -74,4 +74,4 @@ while not Flag:
             LastMinBlockSize = BlockSize
             BlockSize += (LastMaxBlockSize - LastMinBlockSize) // 2
 
-print(f"Final MTU: {BlockSize}")
+print(f"Final MTU: {BlockSize + 28}")
